@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore all XML files
+*.xml
+
+# AI/ML model files
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Dataset and output files
+*.csv
+*.tsv
+*.xlsx
+*.json
+output/
+results/
+
+# TensorBoard logs
+runs/
+logs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Miscellaneous
+.DS_Store
